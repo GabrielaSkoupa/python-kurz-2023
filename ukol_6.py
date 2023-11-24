@@ -7,7 +7,7 @@ class Auto:
     
     def pujc_auto (self):
         if self.dostupne == True:
-            self.dostupne == False #Tady někde bude chyba, nevím, jak to změnit na false
+            self.dostupne = False
             print("Potvrzuji zapůjčení vozidla")
         else: 
             print("Vozidlo není k dispozici")
